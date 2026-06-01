@@ -1,0 +1,1 @@
+var e={name:`MeowQ`,address:`ул. Ленина 15`,phone:`+7 (953) 780-78-66`,workHours:`Пн-Сб: 08:00 - 20:00`};export{e as t};

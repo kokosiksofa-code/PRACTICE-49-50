@@ -1,0 +1,46 @@
+/* Импорт шрифта Jost с разной насыщенностью */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+/* Импорт Tailwind CSS — утилитарного фреймворка */
+@import "tailwindcss";
+
+/* Глобальные стили для html и body */
+html,
+body {
+    /* Светло-кремовый фон */
+    background-color: #fffef7;
+    /* Тёмно-медовый цвет текста */
+    color: #5c3d1a;
+    /* Основной шрифт с запасными вариантами */
+    font-family:
+    "Jost",
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif;
+}
+
+/* Стили для тёмной темы */
+@media (prefers-color-scheme: dark) {
+    html,
+    body {
+    color-scheme: dark;
+  }
+}
+
+/* Пользовательские CSS-переменные*/
+@theme {
+    /* Медово-жёлтые оттенки */
+    --color-tom-thumb-50:  #fffef7;  /* Самый светлый, почти белый с желтизной */
+    --color-tom-thumb-100: #fff9e6;  /* Нежный кремовый */
+    --color-tom-thumb-200: #fef0c8;  /* Светло-медовый */
+    --color-tom-thumb-400: #f5c842;  /* Яркий золотистый */
+    --color-tom-thumb-600: #d99f2b;  /* Медовый основной */
+    --color-tom-thumb-700: #b87d20;  /* Темнее медовый */
+    --color-tom-thumb-800: #8f5e16;  /* Янтарный */
+    --color-tom-thumb-900: #69420e;  /* Тёмный янтарь */
+    --color-tom-thumb-950: #3b2406;  /* Глубокий шоколадно-медовый */
+}
